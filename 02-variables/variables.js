@@ -29,7 +29,7 @@ let NombreCompleto = "María López";
 let nombre_completo = "Carlos Díaz";
 
 // kebab-case: NO se puede usar en JavaScript como nombre de variable (error de sintaxis)
-// let nombre-completo = "Ana Gómez"; ❌ No válido
+// let nombre-completo = "Ana Gómez";  No válido
 
 // ------------------------------
 // REASIGNACIÓN DE VARIABLES
