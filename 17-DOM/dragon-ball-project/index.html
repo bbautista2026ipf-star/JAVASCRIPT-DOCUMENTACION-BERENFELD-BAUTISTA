@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container-fluid text-center">
+      <h1>Dragon Ball</h1>
+      <button class="btn btn-info border-black" id="btnVerPersonajes">
+        Ver todos los personajes
+      </button>
+
+      <div>
+        <form id="formulario">
+          <input type="text" name="nombre" />
+          <input type="text" name="imagen" />
+          <button type="submit">Crear Personaje</button>
+        </form>
+      </div>
+
+      <div class="row mt-2" id="rowContainer">
+        <!-- <div class="col-3 my-2">
+          <div class="card" style="width: 10rem">
+            <img
+              src="https://dragonball-api.com/characters/goku_normal.webp"
+              class="card-img-top"
+              alt="Goku"
+              style="height: 150px; object-fit: contain"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Goku</h5>
+              <p class="card-text">Saiyan</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
